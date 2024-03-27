@@ -5,7 +5,6 @@ public class back {
     private double hp;
     private double attack;
     private double defence;
-    private String winner;
 
     public back(String name, double hp, double attack, double defence) {
         this.name = name;
