@@ -108,7 +108,7 @@ public class front {
                 break;
             }
 
-            if (attacker.getAttack() < defender.getDefence() && defender.getAttack() < attacker.getDefence()) {
+            if (attacker.getAttack() <= defender.getDefence() && defender.getAttack() <= attacker.getDefence()) {
                 winner = "tidak ada karena dua-duanya tidak mempunyai kekuatan untuk menembus shield lawan";
                 break;
             }
